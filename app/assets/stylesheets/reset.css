@@ -1,0 +1,86 @@
+/* === box sizing === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* === remove default spacing === */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* === document sizing === */
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+/* === body defaults === */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  font-family: var(--body-font);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* === responsive media === */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* === fonts in form === */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* === default heading styles === */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* === text wrapping === */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* === remove default list markers === */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* === reduced-motion preferences === */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

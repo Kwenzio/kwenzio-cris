@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap");
+
 :root {
   /* === brand colors lightmode */
   --background-lm: #fffbf7;
@@ -28,4 +30,8 @@
   --warning-dm: #f2c14e;
   --error-dm: #ff7a7a; /* danger */
   --info-dm: #a9b0f2;
+
+  /* === brand fonts === */
+  --heading-font: "Sora", sans-serif;
+  --body-font: "Figtree", sans-serif;
 }
