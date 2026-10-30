@@ -69,5 +69,3 @@ end
 gem "dotenv-rails", "~> 3.2", group: :development
 
 gem "letter_opener_web", "~> 3.0", group: :development
-
-gem "bcrypt", "~> 3.1"
