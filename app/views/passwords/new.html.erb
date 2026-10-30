@@ -1,0 +1,14 @@
+<main class="auth">
+  <div class="auth__container">
+    <%= image_tag "Kwenzio_logo_files/Wordmark/kwenzio-wordmark-color-for-light-bg-600px.png", alt: "Kwenzio", class: "auth__logo" %>
+
+    <h1 class="auth__title">Forgot your password?</h1>
+
+    <%= tag.div(flash[:alert], class: "auth__alert") if flash[:alert] %>
+
+    <%= form_with url: passwords_path, class: "auth__form" do |form| %>
+      <%= form.email_field :email_address, class: "auth__input", required: true, autofocus: true, autocomplete: "username", placeholder: "Enter your email address", value: params[:email_address] %>
+      <%= form.submit "Email reset instructions", class: "auth__button" %>
+    <% end %>
+  </div>
+</main>

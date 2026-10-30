@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap");
+
+:root {
+  /* === brand colors lightmode */
+  --background-lm: #fffbf7;
+  --surface-brand-lm: #f5d6ba;
+  --text-lm: #2c2c54;
+  --text-secondary-lm: #5c5a78;
+  --primary-lm: #a40e4c;
+  --primary-hover-lm: #850b3e;
+  --secondary-lm: #acc3a6;
+  --accent-lm: #f49d6e;
+  --border-lm: #e3cdb8;
+  --success-lm: #2e7d5b;
+  --warning-lm: #8f5e14;
+  --error-lm: #c62828; /* danger */
+  --info-lm: #2c2c54;
+
+  /* === brand colors darkmode */
+  --background-dm: #1b1b33;
+  --surface-brand-dm: #2c2c54;
+  --text-dm: #f7ede3;
+  --text-secondary-dm: #c3bdd3;
+  --primary-dm: #f49d6e;
+  --primary-hover-dm: #f7b48f;
+  --secondary-dm: #acc3a6;
+  --accent-dm: #e2477f;
+  --border-dm: #44446e;
+  --success-dm: #7fc8a0;
+  --warning-dm: #f2c14e;
+  --error-dm: #ff7a7a; /* danger */
+  --info-dm: #a9b0f2;
+
+  /* === brand fonts === */
+  --heading-font: "Sora", sans-serif;
+  --body-font: "Figtree", sans-serif;
+}
