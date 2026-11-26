@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   delete "/logout", to: "sessions#destroy", as: :logout
 
   # Password Reset
-  resource :passwords, path: "reset-password",
+  resources :passwords, path: "reset-password",
       param: :token, path_names: { new: "" },
       only: %i[ new create edit update ]
 
